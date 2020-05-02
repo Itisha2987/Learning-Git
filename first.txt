@@ -32,4 +32,6 @@ Add an branch git push --set-upstream origin master       here master is the bra
 12. git push
 13. git pull
 
+14. git reset  (This is used for reseting/removing all the staged commits...)
+15. git reset <fileName> (for removing only that particular file commit from stage)
 Initial File
