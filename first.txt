@@ -7,5 +7,14 @@ Learning Git .......
 6. git add <fileName>
 7. git add .    (adds all the files)
 8. git commit -m "initial commit"
-9. git diff (to see the differences)
+9. git diff (to see the differences before commiting new code)
+10. git push (This will give an error.....No URL/Destination Specified)
+   add destination- git remote add origin <..your_unique_link..> 
+   to check it-     git remote -v
+   output-          origin	https://github.com/jDemo1/Learning-Git.git (fetch)
+                    origin	https://github.com/jDemo1/Learning-Git.git (push)
+It will still give an error...no branch specified.....
+Add an branch git push --set-upstream origin master       here master is the branch name
+
+you can set the upstream branch using- git branch --set-upstream-to=origin/master
 Initial File
