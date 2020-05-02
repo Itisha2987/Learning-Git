@@ -11,3 +11,9 @@
 
 19. To delete the branch- git branch -d <branchName>
     This will not delete branch from remote, to do so run "git push origin :alpha"
+
+20. If branch was made remotly using browser, then our local repo will not see that branch...
+    For this we use, "git fetch origin" It will fetch all the branches which we currently dont have.
+    To fetch only one branch - "git fetch origin Contact:Contact"
+
+
