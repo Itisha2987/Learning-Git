@@ -1,0 +1,7 @@
+///////How to create branch seperate from master/////////
+14. git branch <branchName>
+15. git branch --list
+    *shows current branch
+16. git checkout <branchName>
+
+17. git checkout -b <branchName> (creates and switches to that branch simultanesouly..)

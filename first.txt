@@ -1,6 +1,9 @@
 Learning Git .......
 Few basic steps to be folowed in git....
 
+
+///////Initial Git Steps///////////
+
 1. Intialize repo- git init
 2. git config --list        (to check configured list)
 3. git config --global user.name "dfjsdhhf" (changes user name globally)
@@ -22,5 +25,8 @@ Few basic steps to be folowed in git....
 It will still give an error...no branch specified.....
 Add an branch git push --set-upstream origin master       here master is the branch name
 
-you can set the upstream branch using- git branch --set-upstream-to=origin/master
+11.set the upstream branch using- git branch --set-upstream-to=origin/<branchName> like-master
+12. git push
+13. git pull
+
 Initial File
