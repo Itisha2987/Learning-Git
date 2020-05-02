@@ -1,2 +1,11 @@
 Learning Git .......
+1. Intialize repo- git init
+2. git config --list        (to check configured list)
+3. git config --global user.name "dfjsdhhf" (changes user name globally)
+4. git config user.name "njdsgjk"  (changes user name locally)
+5. git status      (shows urrent status modified file and all)
+6. git add <fileName>
+7. git add .    (adds all the files)
+8. git commit -m "initial commit"
+9. git diff (to see the differences)
 Initial File
