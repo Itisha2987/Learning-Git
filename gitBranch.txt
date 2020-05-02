@@ -5,3 +5,9 @@
 16. git checkout <branchName>
 
 17. git checkout -b <branchName> (creates and switches to that branch simultanesouly..)
+
+18. git merge <branhName> 
+    if gives merge conflict then it need to be resolved manually.
+
+19. To delete the branch- git branch -d <branchName>
+    This will not delete branch from remote, to do so run "git push origin :alpha"
