@@ -1,4 +1,6 @@
 Learning Git .......
+Few basic steps to be folowed in git....
+
 1. Intialize repo- git init
 2. git config --list        (to check configured list)
 3. git config --global user.name "dfjsdhhf" (changes user name globally)
