@@ -12,6 +12,9 @@ Few basic steps to be folowed in git....
 6. git add <fileName>
 7. git add .    (adds all the files)
 8. git commit -m "initial commit"
+
+   To do all these in a single code- git commit -am "jhsjkj"
+
 9. git diff (to see the differences before commiting new code)
  
    befor this use "git config credential.helper store" this will store the passwords
