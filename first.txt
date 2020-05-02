@@ -10,6 +10,10 @@ Few basic steps to be folowed in git....
 7. git add .    (adds all the files)
 8. git commit -m "initial commit"
 9. git diff (to see the differences before commiting new code)
+ 
+   befor this use "git config credential.helper store" this will store the passwords
+
+
 10. git push (This will give an error.....No URL/Destination Specified)
    add destination- git remote add origin <..your_unique_link..> 
    to check it-     git remote -v
